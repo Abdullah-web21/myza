@@ -76,5 +76,51 @@ button {
     background: black;
     color: white;
     border: none;
+    cursor: pointer;{
+
+    .pricing-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.pricing-box {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pricing-box h2 {
+    color: #007BFF;
+}
+
+.pricing-box button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #007BFF;
+    color: white;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.pricing-box button:hover {
+    background: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+    
 }
